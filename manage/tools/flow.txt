@@ -1,0 +1,27 @@
+
+"Invoice Wizard!"
+
+Page 1:
+Pick client, or Add New
+
+Page 2:
+Assign Domains (usually new)
+
+Page 3:
+Assign services & values to each domain
+
+Page 4:
+Done?
+
+
+Invoice Mangler
+New Invoice
+--> Manual
+View Invoice
+Void Invoice
+Edit Automagic Invoices
+Input Payment
+
+If manual input items, if not just pull from domains_details
+	-> domains_details -> invoices/invoice_details 
+	-> output generator -> output/email

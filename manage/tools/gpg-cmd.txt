@@ -1,0 +1,2 @@
+pass email text through this:
+gpg --homedir /var/www/flatlinesystems/.gpg --default-key info@FlatlineSystems.net --clearsign

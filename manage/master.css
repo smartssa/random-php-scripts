@@ -1,0 +1,159 @@
+body {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	font-family: verdana, sans serif;
+	background: #fff;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+#header {
+	height: 40px;
+	margin: 0 2% 0 0;
+	padding: 0 2% 0 0;
+}
+
+#header h1 {
+	font-size: 14pt;
+	text-align:right;
+}
+#header h6 {
+	margin-top: -10px;
+	font-size: 12pt;
+	text-align: right;
+}
+#menu {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+#menu-sub a {
+	color: white;
+}
+#menu-main {
+	margin: 0px;
+	padding: 0px;
+}
+#menu-main ul { 
+	margin: 0; 
+	padding: 0 0 0 7%; 
+	font-size: 10pt;
+}
+#menu-main li {
+	display: inline;
+	list-type-style: none;
+	padding: 2px 20px 2px 20px;
+}
+
+#menu-main li.active {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 0px;
+	background: #f22;
+}
+#menu-main li.active a {
+	color: white;
+	font-weight: bold;
+}
+#menu-sub {
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#menu-sub ul { 
+	margin: 0; 
+	padding: 1% 0 1% 7%; 
+	font-size: 10pt;
+}
+#menu-sub, .active {
+	background: #f22;
+}
+
+#menu-sub li {
+	display: inline;
+	list-type-style: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#body {
+	padding: 10px;
+}
+#body h1 {
+	font-size: 14pt;
+}
+
+#body ul.log li {
+	padding-right: 5%;
+	list-type-style: none;
+	display: inline;
+}
+#body ul li.listactive {
+	color: white;
+	font-weight: bold;
+	background: red;
+}	padding: 4px 10% 4px 10%;
+
+
+#body li.listactive a {
+	color: white;
+}
+#domainlist {
+	float: left;
+	width: 20%;
+}
+#detailbox {
+	float: left;
+	width: 30%;
+	background: red;
+}
+#bigdetailbox {
+	float: left;
+	background: white;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+#workbox {
+	float: left;
+	width: 40%;
+	background: red;
+}
+
+#footer {
+	text-align: right;
+	font-size: 8pt;
+	clear: both;
+	border-top: 2px solid black;
+}
+
+#warningbox {
+	background: #99f;
+	border: 2px solid black;
+	margin: 4px 10% 4px 10%;
+	padding: 4px 1% 4px 1%;
+}
+
+#errorbox {
+	background: #f99;
+	border: 2px solid black;
+	margin: 4px 10% 4px 10%;
+	padding: 4px 1% 4px 1%;
+}
+
+label {
+	width: 15%;
+	float: left;
+	text-align: right;	
+	padding-right: 5px;
+}
+
+#full {
+	width: 90%;
+	border: 1px solid black;
+}
